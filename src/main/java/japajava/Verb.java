@@ -6,11 +6,6 @@ public abstract class Verb {
     public abstract String past();
     public abstract String pastPolite();
 
-    protected static String cleanInput(String s) {
-        // TODO: more sanitizing
-        return s.trim();
-    }
-
     protected static String getBaseFromDictForm(String dictFormClean) {
         return dictFormClean.substring(0, indexOfLastCodePoint(dictFormClean));
     }

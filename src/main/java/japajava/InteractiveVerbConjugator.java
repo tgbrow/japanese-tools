@@ -2,7 +2,7 @@ package japajava;
 
 import java.util.Scanner;
 
-public class App {
+public class InteractiveVerbConjugator {
     public static void main(String[] args) {
         System.out.println("\nWelcome to Teddy's Japanese verb conjugator!\n");
 
