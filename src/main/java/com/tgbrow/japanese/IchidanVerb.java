@@ -1,4 +1,4 @@
-package japajava;
+package com.tgbrow.japanese;
 
 public class IchidanVerb extends Verb {
     public final String base;

@@ -1,4 +1,4 @@
-package japajava;
+package com.tgbrow.japanese;
 
 import static org.assertj.core.api.Assertions.*;
 

@@ -1,4 +1,4 @@
-package japajava;
+package com.tgbrow.japanese;
 
 public abstract class Verb {
     public abstract String dictionary();

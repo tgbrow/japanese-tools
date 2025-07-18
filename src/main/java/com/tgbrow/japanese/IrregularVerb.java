@@ -1,4 +1,4 @@
-package japajava;
+package com.tgbrow.japanese;
 
 public class IrregularVerb extends Verb {
     public final static IrregularVerb IKU = new IrregularVerb(

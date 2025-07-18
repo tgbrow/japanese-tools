@@ -1,4 +1,4 @@
-package japajava;
+package com.tgbrow.japanese;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -7,8 +7,8 @@ import org.junit.jupiter.api.Test;
 
 import com.google.common.collect.ImmutableList;
 
-import japajava.Hiragana.Consonant;
-import japajava.Hiragana.Vowel;
+import com.tgbrow.japanese.Hiragana.Consonant;
+import com.tgbrow.japanese.Hiragana.Vowel;;
 
 public class HiraganaTest {
 

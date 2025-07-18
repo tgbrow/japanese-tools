@@ -1,4 +1,4 @@
-package japajava;
+package com.tgbrow.japanese;
 
 import java.util.HashMap;
 import java.util.Map;

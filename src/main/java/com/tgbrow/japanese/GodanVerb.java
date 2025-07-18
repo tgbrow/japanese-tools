@@ -1,6 +1,6 @@
-package japajava;
+package com.tgbrow.japanese;
 
-import japajava.Hiragana.Vowel;
+import com.tgbrow.japanese.Hiragana.Vowel;
 
 public class GodanVerb extends Verb {
     public final String base;
