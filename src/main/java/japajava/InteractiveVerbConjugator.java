@@ -16,6 +16,7 @@ public class InteractiveVerbConjugator {
                 System.out.println("polite:      " + verb.polite());
                 System.out.println("past:        " + verb.past());
                 System.out.println("past polite: " + verb.pastPolite());
+                System.out.println("te:          " + verb.te());
 
                 keepGoing = promptYesOrNo(scan, "Would you like to try another verb?");
             }

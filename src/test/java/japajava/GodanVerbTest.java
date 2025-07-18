@@ -13,6 +13,7 @@ public class GodanVerbTest {
         assertThat(v.polite()).isEqualTo("会います");
         assertThat(v.past()).isEqualTo("会った");
         assertThat(v.pastPolite()).isEqualTo("会いました");
+        assertThat(v.te()).isEqualTo("会って");
     }
 
     @Test
@@ -23,6 +24,7 @@ public class GodanVerbTest {
         assertThat(v.polite()).isEqualTo("立ちます");
         assertThat(v.past()).isEqualTo("立った");
         assertThat(v.pastPolite()).isEqualTo("立ちました");
+        assertThat(v.te()).isEqualTo("立って");
     }
 
     @Test
@@ -33,6 +35,7 @@ public class GodanVerbTest {
         assertThat(v.polite()).isEqualTo("分かります");
         assertThat(v.past()).isEqualTo("分かった");
         assertThat(v.pastPolite()).isEqualTo("分かりました");
+        assertThat(v.te()).isEqualTo("分かって");
     }
 
     @Test
@@ -43,6 +46,7 @@ public class GodanVerbTest {
         assertThat(v.polite()).isEqualTo("写します");
         assertThat(v.past()).isEqualTo("写した");
         assertThat(v.pastPolite()).isEqualTo("写しました");
+        assertThat(v.te()).isEqualTo("写して");
     }
 
     @Test
@@ -53,6 +57,7 @@ public class GodanVerbTest {
         assertThat(v.polite()).isEqualTo("聞きます");
         assertThat(v.past()).isEqualTo("聞いた");
         assertThat(v.pastPolite()).isEqualTo("聞きました");
+        assertThat(v.te()).isEqualTo("聞いて");
     }
 
     @Test
@@ -63,6 +68,7 @@ public class GodanVerbTest {
         assertThat(v.polite()).isEqualTo("泳ぎます");
         assertThat(v.past()).isEqualTo("泳いだ");
         assertThat(v.pastPolite()).isEqualTo("泳ぎました");
+        assertThat(v.te()).isEqualTo("泳いで");
     }
 
     @Test
@@ -73,6 +79,7 @@ public class GodanVerbTest {
         assertThat(v.polite()).isEqualTo("死にます");
         assertThat(v.past()).isEqualTo("死んだ");
         assertThat(v.pastPolite()).isEqualTo("死にました");
+        assertThat(v.te()).isEqualTo("死んで");
     }
 
     @Test
@@ -83,6 +90,7 @@ public class GodanVerbTest {
         assertThat(v.polite()).isEqualTo("学びます");
         assertThat(v.past()).isEqualTo("学んだ");
         assertThat(v.pastPolite()).isEqualTo("学びました");
+        assertThat(v.te()).isEqualTo("学んで");
     }
 
     @Test
@@ -93,6 +101,7 @@ public class GodanVerbTest {
         assertThat(v.polite()).isEqualTo("飲みます");
         assertThat(v.past()).isEqualTo("飲んだ");
         assertThat(v.pastPolite()).isEqualTo("飲みました");
+        assertThat(v.te()).isEqualTo("飲んで");
     }
 
     @Test

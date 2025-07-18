@@ -38,6 +38,11 @@ public class GodanVerb extends Verb {
         return politeStem() + "ました";
     }
 
+    @Override
+    public String te() {
+        return base + teSuffix();
+    }
+
     private String politeStem() {
         final Hiragana iEnding = Hiragana.fromParts(endingHiragana.consonant, Vowel.I);
         return base + iEnding.character;
@@ -54,10 +59,14 @@ public class GodanVerb extends Verb {
         };
     }
 
-    public String toString() {
-        final StringBuilder sb = new StringBuilder();
-        sb.append("base: " + base);
-        sb.append("end:  " + endingHiragana.character);
-        return sb.toString();
+    private final String teSuffix() {
+        return switch (endingHiragana.consonant) {
+            case NONE, T, R -> "って";
+            case S -> "して";
+            case K -> "いて";
+            case G -> "いで";
+            case N, B, M -> "んで";
+            default -> "ø"; // TODO: throw instead
+        };
     }
 }

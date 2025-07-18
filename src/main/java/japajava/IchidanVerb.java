@@ -33,5 +33,10 @@ public class IchidanVerb extends Verb {
     public String pastPolite() {
         return base + "ました";
     }
+
+    @Override
+    public String te() {
+        return base + "て";
+    }
     
 }

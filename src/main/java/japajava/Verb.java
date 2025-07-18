@@ -5,6 +5,7 @@ public abstract class Verb {
     public abstract String polite();
     public abstract String past();
     public abstract String pastPolite();
+    public abstract String te();
 
     protected static String getBaseFromDictForm(String dictFormClean) {
         return dictFormClean.substring(0, indexOfLastCodePoint(dictFormClean));

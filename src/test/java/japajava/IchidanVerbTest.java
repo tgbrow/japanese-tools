@@ -14,6 +14,7 @@ public class IchidanVerbTest {
         assertThat(v.polite()).isEqualTo("食べます");
         assertThat(v.past()).isEqualTo("食べた");
         assertThat(v.pastPolite()).isEqualTo("食べました");
+        assertThat(v.te()).isEqualTo("食べて");
     }
 
     @Test
@@ -24,6 +25,7 @@ public class IchidanVerbTest {
         assertThat(v.polite()).isEqualTo("借ります");
         assertThat(v.past()).isEqualTo("借りた");
         assertThat(v.pastPolite()).isEqualTo("借りました");
+        assertThat(v.te()).isEqualTo("借りて");
     }
 
     @Test
